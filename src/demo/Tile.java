@@ -84,7 +84,7 @@ public class Tile {
 			text = Color.white;
 		}
 		
-		g.setColor(new Color(0, 0, 0, 0));
+		g.setColor(background);
 		g.fillRoundRect(0, 0, WIDTH, HEIGHT, ARC_WIDTH, ARC_HEIGHT);
 		
 		g.setColor(text);
